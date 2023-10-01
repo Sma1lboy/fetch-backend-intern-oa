@@ -1,3 +1,33 @@
 1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose to use Java,
+the language I am most familiar with, to complete this coding exercise. even if it is not the easiest way to complete
+this exercise, I want to show more of my ability through Java. Regarding tools, I use IDEA as my IDE, Postman to
+help me test the API, Git to manage my version logs, and maven to manage my project. If we need to go live with the
+final product, I can also write a dockerfile to build the docker image, and ultimately go through the pipeline to
+complete the CI/CD. For Libraries, I use Lombok to get rid of the cumbersome Getter Setter, I use Spring, SpringMVC
+to I use Spring, SpringMVC to help me develop web applications.
+
 2. What are the advantages and disadvantages of your solution?
+
+The advantage of using java and springboot I think is that the developer can always look at the whole project from
+a HIGH level perspective. It means that we don't have to repeat the default configuration for each library. The whole
+project is managed through BeanMap, we don't need to care much about dependency injection, Spring cares about it.
+more importantly, the architecture between the project is very simple and intuitive. controller, service, and DAO
+layer can be separated by different people to be responsible for.
+
+The disadvantage is that although Springboot has helped programmers to simplify a lot of development challenges,
+but there is still a certain learning cost. What's more, the syntax of Java and the existence of Spring leads to a
+very complex structure if the project is getting bigger and bigger.
+
 3. What has been a favorite school/personal project thus far? What about it that challenged you?
+My favorite project is the first one on my resume, MelodyBay, a distributed microservices architecture using Java
+designed for contributing all copyright-free music to the community. I was responsible for most of the front-end and
+back-end code with my small team. Meaning I'm very familiar with front-end and back-end, even though I love back-end.
+
+But the worst problem I ever encountered was during my last internship. In my last internship, we used C# to implement
+a distributed microservice. Because the project was microservicebased, each microservice was ISOLATED from each other.
+The cross-service resulted in data transfers and not being able to get them all done on one service's backend.
+This made me realize that we have to design from the very beginning which servers are used to store the actual data and
+which servers only need to store the ids. later, we had a set of professional web development process, which I then
+used for my own project MelodyBay.
