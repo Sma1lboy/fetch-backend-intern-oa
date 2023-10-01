@@ -33,7 +33,7 @@ public class UserServiceImpl implements UserService {
          */
         User.transactionsHistory.add(transaction);
         /*
-        total point couter
+        total point counter
          */
         pointsMap.put(payer, pointsMap.getOrDefault(payer, 0L) + transaction.getPoints());
     }
