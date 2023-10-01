@@ -1,0 +1,3 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+2. What are the advantages and disadvantages of your solution?
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
